@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: rgb(201, 171, 194);
+}
+
+.admin-dashboard {
+  max-width: 800px;
+  margin: auto;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+.bulk-delete {
+  margin-top: 10px;
+}
+
+.selected {
+  background-color: #ddd;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  
+  th {
+      text-align: left;
+  }
+}
